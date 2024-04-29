@@ -1,0 +1,143 @@
+{
+  "identifier" : "477ECF4F",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "443BCD24",
+      "localizations" : [
+        {
+          "description" : "Libro escrito por Dan Brown",
+          "displayName" : "Codigo DaVinci",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "libro escrito por Dan Brown",
+          "displayName" : "Codigo Davinci",
+          "locale" : "es_MX"
+        }
+      ],
+      "productID" : "com.enriquesarmiento.BookStore.codigoDavinci",
+      "referenceName" : "Codigo DaVinci",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "2AE33999",
+      "localizations" : [
+        {
+          "description" : "Harry Potter book",
+          "displayName" : "Harry Potter",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Libro de Harry Potter",
+          "displayName" : "Harry Portter",
+          "locale" : "es_MX"
+        }
+      ],
+      "productID" : "com.enriquesarmiento.BookStore.harryPotter",
+      "referenceName" : "Harry Potter",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "2FAA6774",
+      "localizations" : [
+
+      ],
+      "name" : "Full Access",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "832C449B",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "full access to the app",
+              "displayName" : "Full Access",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "acceso a todos los libros de la ap",
+              "displayName" : "full acceso",
+              "locale" : "es_MX"
+            }
+          ],
+          "productID" : "com.enriquesarmiento.BookStore.fullAccess",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Full Access",
+          "subscriptionGroupID" : "2FAA6774",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
