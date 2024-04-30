@@ -10,4 +10,5 @@ This Test App has in-App purchase feature enable
 
 ## 2. FOR MODELS, VIEWS AND VIEWMODELS
 - We need to import StoreKit on our files in order to work we purchases. 
-
+- VIEW MODEL. 
+   a. we need to add on our view model all identifier for each of our products in order to work, as an array of strings.
